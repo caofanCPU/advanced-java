@@ -64,7 +64,7 @@
           '/docs/high-concurrency/',
           '/docs/distributed-system/',
           '/docs/high-availability/',
-          '/docs/micor-services/',
+          '/docs/micro-services/',
           '/docs/big-data/',
         ],
         depth: 3
@@ -85,15 +85,19 @@
             } else {
               url = 'https://github.com/doocs/advanced-java/blob/master/' + vm.route.file
             }
-            const edit = en ? 'Edit on GitHub' : '在 GitHub 编辑'
-            const editHtml = `[:memo: ${edit}](${url})\n`
+
+            const github = `[GitHub](${url})`
+            const gitee = `[Gitee](${url.replace("github", "gitee")})`
+            
+            const editHtml = en ? `:memo: Edit on ${github} / ${gitee}\n` : `:memo: 在 ${github} / ${gitee} 编辑\n`;
+
             if (vm.route.path == '/') {
               return editHtml + content;
             }
             const subscription = `
 ## 公众号
 
-GitHub 技术社区 [Doocs](https://github.com/doocs) 旗下唯一公众号「**Doocs开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及业内最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及业内最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
 
 <table>
     <tr>

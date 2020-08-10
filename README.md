@@ -2,17 +2,17 @@
 
 [![actions status](https://github.com/doocs/advanced-java/workflows/Sync/badge.svg)](https://github.com/doocs/advanced-java/actions)
 [![license](https://badgen.net/github/license/doocs/advanced-java?color=green)](https://github.com/doocs/advanced-java/blob/master/LICENSE)
-[![original](https://badgen.net/badge/original/%E4%B8%AD%E5%8D%8E%E7%9F%B3%E6%9D%89/orange)](https://github.com/doocs/advanced-java)
-[![wechat-group](https://badgen.net/badge/chat/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81/138c7b)](#公众号)
-[![reading](https://badgen.net/badge/books/read%20together/cyan)](https://github.com/doocs/technical-books)
-[![coding](https://badgen.net/badge/leetcode/coding%20together/cyan)](https://github.com/doocs/leetcode)
-[![notice](https://badgen.net/badge/notice/%E7%BB%B4%E6%9D%83%E8%A1%8C%E5%8A%A8/red)](/docs/extra-page/rights-defending-action.md)
-[![stars](https://badgen.net/github/stars/doocs/advanced-java)](https://github.com/doocs/advanced-java/stargazers)
-[![contributors](https://badgen.net/github/contributors/doocs/advanced-java)](https://github.com/doocs/advanced-java/tree/master/docs/from-readers#contributors)
-[![help-wanted](https://badgen.net/github/label-issues/doocs/advanced-java/help%20wanted/open)](https://github.com/doocs/advanced-java/labels/help%20wanted)
-[![issues](https://badgen.net/github/open-issues/doocs/advanced-java)](https://github.com/doocs/advanced-java/issues)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs](https://badgen.net/badge/organization/join%20us/green)](https://doocs.github.io/#/?id=how-to-join)
+[![stars](https://badgen.net/github/stars/doocs/advanced-java)](https://github.com/doocs/advanced-java/stargazers)
+[![forks](https://badgen.net/github/forks/doocs/advanced-java)](https://github.com/doocs/advanced-java/network/members)
+[![contributors](https://badgen.net/github/contributors/doocs/advanced-java)](https://github.com/doocs/advanced-java/tree/master/docs/from-readers#contributors)
+[![issues](https://badgen.net/github/open-issues/doocs/advanced-java)](https://github.com/doocs/advanced-java/issues)
+[![original](https://badgen.net/badge/original/%E4%B8%AD%E5%8D%8E%E7%9F%B3%E6%9D%89/red)](https://github.com/doocs/advanced-java)
+[![notice](https://badgen.net/badge/notice/%E7%BB%B4%E6%9D%83%E8%A1%8C%E5%8A%A8/red)](/docs/extra-page/rights-defending-action.md)
+[![wechat-group](https://badgen.net/badge/chat/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81/cyan)](#公众号)
+[![coding](https://badgen.net/badge/leetcode/%E5%88%B7%E9%A2%98%E5%B0%8F%E9%98%9F/cyan)](https://github.com/doocs/leetcode)
+
 
 本项目大部分内容来自中华石杉，版权归作者所有，内容涵盖[高并发](#高并发架构)、[分布式](#分布式系统)、[高可用](#高可用架构)、[微服务](#微服务架构)、[海量数据处理](#海量数据处理)等领域知识。[我](https://github.com/yanglbme)对这部分知识做了一个系统的整理，方便学习查阅。
 
@@ -21,6 +21,15 @@
 * Netlify: https://adjava.netlify.app
 * Gitee Pages: https://doocs.gitee.io/advanced-java
 * GitHub Pages: https://doocs.github.io/advanced-java
+
+注：由于本项目站点基于 [Docsify](https://docsify.js.org) 构建，如果你希望在本地运行，请按照以下步骤进行操作：
+
+1. 安装 NodeJS 环境：https://nodejs.org/zh-cn/
+2. 安装 Docsify：`npm i docsify-cli -g`
+3. 使用 Git 克隆本项目到你的本地环境：`git clone git@github.com:doocs/advanced-java.git`
+4. 进入 `advanced-java` 根目录：`cd advanced-java`
+5. 执行命令，运行本项目：`docsify serve`
+
 
 ## 高并发架构
 
@@ -88,7 +97,7 @@
 * [分布式服务接口的幂等性如何设计（比如不能重复扣款）？](./docs/distributed-system/distributed-system-idempotency.md)
 * [分布式服务接口请求的顺序性如何保证？](./docs/distributed-system/distributed-system-request-sequence.md)
 * [如何自己设计一个类似 Dubbo 的 RPC 框架？](./docs/distributed-system/dubbo-rpc-design.md)
-* [CAP定理的P是什么](./docs/distributed-system/distributed-system-cap.md)
+* [CAP 定理的 P 是什么？](./docs/distributed-system/distributed-system-cap.md)
 
 ### 分布式锁
 
@@ -172,21 +181,33 @@
 
 ---
 
+## Doocs 社区优质项目
+
+Doocs 技术社区，致力于打造一个内容完整、持续成长的互联网开发者学习生态圈！以下是 Doocs 旗下的一些优秀项目，欢迎各位开发者朋友持续保持关注。
+
+| # | 项目 | 描述 | 热度 |
+|---|---|---|---|
+| 1 | [advanced-java](https://github.com/doocs/advanced-java) | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。 | ![](https://badgen.net/github/stars/doocs/advanced-java) <br>![](https://badgen.net/github/forks/doocs/advanced-java) |
+| 2 | [leetcode](https://github.com/doocs/leetcode) | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。 | ![](https://badgen.net/github/stars/doocs/leetcode) <br>![](https://badgen.net/github/forks/doocs/leetcode) |
+| 3 | [source-code-hunter](https://github.com/doocs/source-code-hunter) | 互联网常用组件框架源码分析。 | ![](https://badgen.net/github/stars/doocs/source-code-hunter) <br>![](https://badgen.net/github/forks/doocs/source-code-hunter) |
+| 4 | [jvm](https://github.com/doocs/jvm) | Java 虚拟机底层原理知识总结。 | ![](https://badgen.net/github/stars/doocs/jvm) <br>![](https://badgen.net/github/forks/doocs/jvm) |
+| 5 | [coding-interview](https://github.com/doocs/coding-interview) | 代码面试题集，包括《剑指 Offer》、《编程之美》等。 | ![](https://badgen.net/github/stars/doocs/coding-interview) <br>![](https://badgen.net/github/forks/doocs/coding-interview) |
+| 6 | [md](https://github.com/doocs/md) | 一款高度简洁的微信 Markdown 编辑器。 | ![](https://badgen.net/github/stars/doocs/md) <br>![](https://badgen.net/github/forks/doocs/md) |
+| 7 | [technical-books](https://github.com/doocs/technical-books) | 值得一看的技术书籍列表。 | ![](https://badgen.net/github/stars/doocs/technical-books) <br>![](https://badgen.net/github/forks/doocs/technical-books) |
+
 ## 贡献者
 
-感谢以下所有朋友对 [GitHub 技术社区 Doocs](https://github.com/doocs) 所做出的贡献，[参与项目维护请戳这儿](https://doocs.github.io/#/?id=how-to-join)。
+感谢以下所有朋友对 [Doocs 技术社区](https://github.com/doocs) 所做出的贡献，[参与项目维护请戳这儿](https://doocs.github.io/#/?id=how-to-join)。
 
 <!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
 
-<a href="https://opencollective.com/doocs/contributors.svg?width=890&button=true"><img src="https://opencollective.com/doocs/contributors.svg?width=890&button=false" /></a>
+<a href="https://opencollective.com/doocs/contributors.svg?width=890&button=true"><img src="https://opencollective.com/doocs/contributors.svg?width=1080&button=false" /></a>
 
 <!-- ALL-CONTRIBUTORS-LIST: END -->
 
----
-
 ## 公众号
 
-GitHub 技术社区 [Doocs](https://github.com/doocs) 旗下唯一公众号「**Doocs开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
 
 <table>
     <tr>
